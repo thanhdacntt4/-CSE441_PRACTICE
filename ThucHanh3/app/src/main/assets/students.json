@@ -1,0 +1,20 @@
+[
+  {
+    "id": "001",
+    "name": "Nguyễn Văn A",
+    "gpa": 3.5,
+    "gender": "male",
+    "birthDate": "2000-01-01",
+    "email": "vana@example.com",
+    "major": "Công nghệ thông tin"
+  },
+  {
+    "id": "002",
+    "name": "Trần Thị B",
+    "gpa": 3.8,
+    "gender": "female",
+    "birthDate": "2000-02-01",
+    "email": "thib@example.com",
+    "major": "Kinh tế"
+  }
+]
