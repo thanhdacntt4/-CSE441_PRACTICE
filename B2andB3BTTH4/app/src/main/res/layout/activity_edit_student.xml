@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter student name"/>
+
+    <EditText
+        android:id="@+id/edit_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter class"/>
+
+    <EditText
+        android:id="@+id/edit_gpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter GPA"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btn_select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Image"/>
+
+    <ImageView
+        android:id="@+id/image_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+</LinearLayout>
